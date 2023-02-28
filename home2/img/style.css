@@ -1,0 +1,92 @@
+main {
+  background: url(bg1.jpg);
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 490px 600px;
+}
+
+.image-section {
+  display: none;
+}
+
+form {
+  width: 400px;
+}
+/* Full-width input fields */
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px 0;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+select {
+  width: 100%;
+  padding: 15px 0;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 19px 10px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 1;
+}
+h1 {
+  text-align: center;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.submitbtn {
+  width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  background-color: lightgray;
+  opacity: 0, 3;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.mySlidesfade {
+  display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pic1 {
+  display: flex;
+}
+@media screen and (max-width: 300px) {
+  .submitbtn {
+    width: 100%;
+  }
+}
